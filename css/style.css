@@ -1,0 +1,129 @@
+/*
+Autor: Adrian Quevedo (http://adrianquevedo.com)
+*/
+
+/* =0 NORMALIZE
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+@import url('normalize.css');
+
+/* =1 GLOBAL
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+html{ background-color: #eee; }
+
+body {
+	color: #333;
+	line-height: 1;
+	font: normal 62.5% Arial, Helvetica, sans-serif;
+	vertical-align: top; }
+
+#container{
+	margin: 0 auto;
+	width: 960px; }
+
+/* =2 LINKS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+a:link, a:visited { color: #000; }
+ 
+a:hover { color: #000; }
+ 
+a:active { color: #000; }
+ 
+/* =3 HEADINGS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+h2{
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+	text-shadow: 0 1px 0 #fff;
+}
+
+/* =4 HEADER
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+.logo{
+	background: url(../i/aq-logo.png) center no-repeat;
+	display: block;
+	height: 25px;
+	margin: 40% auto 10px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	width: 184px;
+}
+
+/* =5 CONTENT
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+/* =6 FOOTER
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+} 
+
+.socialMedia{	
+	list-style: none;
+	margin: 30px auto;
+	overflow: hidden;
+	width: 364px; }
+
+	.socialMedia li {
+		float: left;
+		margin: 10px; }
+
+	.socialMedia a {
+		background-image: url('../i/connect-sprite.png');
+		background-repeat: no-repeat;
+		display: block;
+		height: 32px;
+		overflow: hidden;
+		text-indent: 100%;
+		white-space: nowrap;
+		width: 32px; }
+
+.email { background-position: -3px 0 }
+	
+	.email:hover { background-position: -3px -42px }
+ 
+.dribbble { background-position: -3px -92px }
+
+	.dribbble:hover { background-position: -3px -134px }
+ 
+.flickr { background-position: -3px -184px }
+
+	.flickr:hover { background-position: -3px -226px }
+ 
+.github { background-position: -3px -276px }
+
+	.github:hover { background-position: -3px -318px }
+ 
+.gplus { background-position: -3px -368px }
+
+	.gplus:hover { background-position: -3px -410px }
+
+.jsdoit { background-position: -3px -460px }
+
+	.jsdoit:hover { background-position: -3px -502px }
+ 
+.linkedin { background-position: -3px -552px }
+
+	.linkedin:hover { background-position: -3px -594px }
+ 
+.twitter { background-position: -3px -644px }
+
+	.twitter:hover { background-position: -3px -686px }
+ 
+.vimeo { background-position: -3px -736px }
+
+	.vimeo:hover { background-position: -3px -778px }
+
+/* MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––*/
+@media all {
+.container {
+	-webkit-transition: max-width 0.4s ease-in-out;
+	-moz-transition: max-width 0.4s ease-in-out;
+	-o-transition: max-width 0.4s ease-in-out;
+	transition: max-width 0.4s ease-in-out;	}
+}
